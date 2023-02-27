@@ -48,4 +48,4 @@ class BaseDataset(metaclass=abc.ABCMeta):
                                      file_utils.PackageResource]
   ) -> str:
     with file_utils.open_text_resource(readmefile) as text_file:
-      return " ".join(text_file)
+        return " ".join(text_file)
