@@ -13,7 +13,7 @@
 #     See the License for the specific language governing permissions and
 #     limitations under the License.
 """Imports for colab accessibility."""
-import madi.src.datasets.gaussian_mixture_dataset
+import madi.src.datasets.positive_sample_dataset
 import madi.src.datasets.smart_buildings_dataset
 import madi.src.detectors.integrated_gradients_interpreter
 import madi.src.detectors.neg_sample_neural_net_detector
